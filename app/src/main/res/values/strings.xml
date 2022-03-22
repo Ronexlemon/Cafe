@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cafe</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="catalogue">Catalogue</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username</string>
+    <string name="pass">password</string>
+    <string name="confirm_pass">confirm password</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="mail">email@gmail.com</string>
+    <string name="search">search</string>
+    <string name="search1">Search</string>
+    <string name="upload">UPLOAD</string>
+    <string name="description">Description</string>
+    <string name="save">SAVE</string>
+    <string name="search2">Search</string>
+    <string name="tittle">Tittle</string>
+    <string name="price">Price</string>
+    <string name="cash_out">Cash Out</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="account">Account</string>
+    <string name="delete">Delete</string>
+    <string name="message">Delete Account</string>
+    <string name="positive">Delete</string>
+    <string name="negative">Cancel</string>
+</resources>

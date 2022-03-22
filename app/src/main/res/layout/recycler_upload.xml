@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/card"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="15dp"
+  android:layout_margin="4dp"
+        android:background="@color/purple_200"
+        >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentRight="true"
+     android:layout_marginTop="20dp"
+     android:layout_marginEnd="40dp"
+     android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:id="@+id/price"/>
+
+
+           <ImageView
+               android:layout_width="200dp"
+               android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"
+               android:id="@+id/image"/>
+</RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+</layout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+     <item android:title="@string/profile"
+        android:id="@+id/profile"
+
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+    <item android:title="@string/setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+    <item android:title="@string/search2"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        />
+    <item android:title="@string/catalogue"
+        android:id="@+id/catalogue"
+        android:icon="@drawable/ic_baseline_shop_24"
+        />
+
+
+</menu>

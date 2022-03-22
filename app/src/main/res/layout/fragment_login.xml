@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/catalogue"
+    tools:context=".LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <com.google.android.material.card.MaterialCardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardElevation="10dp"
+       app:cardCornerRadius="10dp"
+       android:layout_marginTop="50dp"
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       android:id="@+id/card">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:endIconMode="clear_text"
+           app:startIconContentDescription="@string/username"
+           app:startIconDrawable="@drawable/ic_baseline_person_24">
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+              android:id="@+id/username"
+               android:hint="@string/username"/>
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:endIconMode="password_toggle"
+           app:startIconContentDescription="@string/pass"
+           app:startIconDrawable="@drawable/ic_baseline_lock_24">
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+   android:id="@+id/password"
+               android:hint="@string/pass"/>
+       </com.google.android.material.textfield.TextInputLayout>
+           <com.google.android.material.textfield.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:endIconMode="password_toggle"
+               app:startIconContentDescription="@string/confirm_pass"
+               app:startIconDrawable="@drawable/ic_baseline_lock_24">
+               <com.google.android.material.textfield.TextInputEditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                  android:id="@+id/passwords"
+                   android:hint="@string/confirm_pass"/>
+           </com.google.android.material.textfield.TextInputLayout>
+       </LinearLayout>
+   </com.google.android.material.card.MaterialCardView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_margin="20dp"
+            android:id="@+id/login"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="130dp"
+            android:id="@+id/signup"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</layout>
